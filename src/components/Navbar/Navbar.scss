@@ -1,0 +1,53 @@
+.navbar{
+  padding: 2rem 1rem;
+}
+.navbar, .navbar-expand-lg {
+    background: white;
+    height: 32px;
+    display: flex;
+    justify-content: space-between !important;
+    align-items: center;
+    
+  
+    .navbar-nav .nav-link {
+      
+      color: rgb(41, 180, 214);
+      margin: 0 5%;
+      padding-top: 20px;
+      text-decoration: none;
+      border-radius: 10px;
+      display: flex;
+      font-weight: bold;
+      align-items: center;
+      
+    }
+    #sm-mobile {
+      @media (max-width: 991px){
+        flex-direction: row !important;
+        
+    }     
+    }
+    #register {
+      padding-right: 10px;
+    }
+  }
+
+  #navbar-search-button{
+    border: 1px solid;
+    border-color:  rgb(41, 180, 214);
+    border-radius: 8px;
+   color:white;
+   font-weight: bold;
+   font-size: medium;
+   background-color:  rgb(41, 180, 214);
+   
+  }
+
+  #navbar-search{
+    border: 2px solid;
+    border-radius: 8px;
+    border-color: rgb(231, 64, 34);
+  }
+ 
+
+ 

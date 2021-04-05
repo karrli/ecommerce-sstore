@@ -1,0 +1,37 @@
+#button-body {
+    border: 1px solid;
+    border-color: rgb(231, 64, 34);
+    border-radius: 22.5px;
+   background-color: rgb(231, 64, 34)
+}
+
+.product-name{
+    font-size: large;
+    text-decoration: none;
+    color: lightseagreen;
+    font-weight: bold;
+
+}
+.disabledCursor { 
+    pointer-events:visiblePainted;
+  }
+#price {
+    color: rgb(52, 52, 53);
+    font-weight: bold;
+}
+.form-container{
+    @media ( max-width: 1024px){
+
+        margin-right: 0px;
+        
+    }
+   
+}
+
+.form-control-product{
+    border-radius: 10px !important;
+    border-color:rgb(41, 180, 214) !important;
+   
+
+}
+
