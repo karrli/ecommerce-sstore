@@ -21,12 +21,7 @@
       align-items: center;
       
     }
-    #sm-mobile {
-      @media (max-width: 991px){
-        flex-direction: row !important;
-        
-    }     
-    }
+   
     #register {
       padding-right: 10px;
     }

@@ -32,7 +32,7 @@ export default function Navbar() {
           placeholder="Products" />
         <button
         id="navbar-search-button"
-        onClick={e=>{
+        onClick={e => {
             e.preventDefault()
             history.push(`/search_results?name=${item}`)
         }}

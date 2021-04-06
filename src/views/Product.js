@@ -1,7 +1,7 @@
-import React, {useState,useEffect} from 'react'
-import axios from 'axios'
-import {useParams, useHistory} from 'react-router-dom'
-import Navbar from '../components/Navbar'
+import React, {useState,useEffect} from 'react';
+import axios from 'axios';
+import {useParams, useHistory} from 'react-router-dom';
+import Navbar from '../components/Navbar';
 import {
     Card,
     CardImg,
@@ -54,7 +54,9 @@ import {
           </CardBody>
         </Card> 
         </Row>
-            
+      
+
+          
     
     
               

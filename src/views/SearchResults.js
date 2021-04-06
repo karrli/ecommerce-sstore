@@ -1,8 +1,9 @@
-import React, {useState, useEffect} from 'react'
-import axios from 'axios'
-import {useLocation} from 'react-router-dom'
-import ProductDetail from '../components/ProductDetail/ProductDetail';
-import Navbar from '../components/Navbar'
+import React, {useState, useEffect} from 'react';
+import axios from 'axios';
+import {useLocation} from 'react-router-dom';
+import ProductDetail from '../components/ProductDetail';
+import Navbar from '../components/Navbar';
+import Footer from '../components/Footer';
 
 
 export default function SearchResults() {
@@ -45,7 +46,8 @@ export default function SearchResults() {
                 </div>
                </div>
                </div>
-   
+               <Footer/>
+                        
         </div>
     )
     

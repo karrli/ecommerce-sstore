@@ -4,6 +4,7 @@ import axios from 'axios';
 import { useHistory } from "react-router-dom";
 import Navbar from "../components/Navbar";
 
+
 export default function Signup() {
     const history = useHistory();
 
@@ -72,6 +73,7 @@ export default function Signup() {
             </div>
         </div>
         </form>
+       
         </>
     );
 }

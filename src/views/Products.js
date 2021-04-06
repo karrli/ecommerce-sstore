@@ -1,7 +1,7 @@
 import React, {useEffect,useState} from 'react'
 import axios from 'axios'
 import './Home.scss'
-import ProductDetail from '../components/ProductDetail/ProductDetail';
+import ProductDetail from '../components/ProductDetail';
 
 const categories = [
     "Books",
